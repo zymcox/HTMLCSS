@@ -22,7 +22,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -34,11 +34,11 @@ footer {
 #products {
     background-color: #fff;
     margin: 20px 0px 20px 0px;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     border-radius: 5px;
 }
 .product {
-    margin: 0px 300px 0px 350px;
+    margin: 10px 300px 10px 350px;
     padding: 10px 10px 10px 10px;
     max-width: 600px;
     border: 1px solid;
@@ -46,15 +46,28 @@ footer {
     border-color: #ddd;
     border-radius: 5px;
 }
+
 img{
     max-width: 100%;
     height: auto;
     border-radius: 5px;
     margin-top: 25px;
 }
+
 h2 {
     color: #4caf50;
     text-align: center;
+}
+.email-field {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 5px 5px 5px; 
 }
 
 p {
